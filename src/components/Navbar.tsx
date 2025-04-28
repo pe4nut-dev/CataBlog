@@ -1,8 +1,8 @@
 
-import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import { Search, ShoppingCart } from "lucide-react";
+import { Search } from "lucide-react";
+import { useState } from "react";
 
 const Navbar = () => {
   const [isSearchOpen, setIsSearchOpen] = useState(false);
@@ -40,11 +40,6 @@ const Navbar = () => {
               <Search className="h-5 w-5" />
             </Button>
           )}
-          <Button variant="ghost" size="icon">
-            <ShoppingCart className="h-5 w-5" />
-            <span className="absolute top-0 right-0 flex items-center justify-center w-4 h-4 text-xs font-semibold text-white bg-catalog-primary rounded-full">2</span>
-          </Button>
-          <Button className="hidden md:inline-flex bg-catalog-primary hover:bg-catalog-secondary text-white">Sign In</Button>
         </div>
       </div>
     </header>

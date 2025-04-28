@@ -6,7 +6,7 @@ const Footer = () => {
           <div className="lg:col-span-1">
             <span className="text-xl font-bold text-catalog-dark">Cata<span className="text-catalog-primary">Blog</span></span>
             <p className="mt-4 text-sm text-gray-600">
-              Your one-stop shop for premium, high-quality products. Serving customers since 2015.
+              Your one-stop shop for premium, high-quality products.
             </p>
           </div>
           
@@ -16,7 +16,6 @@ const Footer = () => {
               <ul className="mt-4 space-y-2">
                 <li><a href="#" className="text-sm text-gray-600 hover:text-catalog-primary">New Arrivals</a></li>
                 <li><a href="#" className="text-sm text-gray-600 hover:text-catalog-primary">Best Sellers</a></li>
-                <li><a href="#" className="text-sm text-gray-600 hover:text-catalog-primary">Sale Items</a></li>
                 <li><a href="#" className="text-sm text-gray-600 hover:text-catalog-primary">Collections</a></li>
               </ul>
             </div>
@@ -26,8 +25,6 @@ const Footer = () => {
               <ul className="mt-4 space-y-2">
                 <li><a href="#" className="text-sm text-gray-600 hover:text-catalog-primary">About Us</a></li>
                 <li><a href="#" className="text-sm text-gray-600 hover:text-catalog-primary">Our Story</a></li>
-                <li><a href="#" className="text-sm text-gray-600 hover:text-catalog-primary">Careers</a></li>
-                <li><a href="#" className="text-sm text-gray-600 hover:text-catalog-primary">Press</a></li>
               </ul>
             </div>
             
@@ -36,8 +33,6 @@ const Footer = () => {
               <ul className="mt-4 space-y-2">
                 <li><a href="#" className="text-sm text-gray-600 hover:text-catalog-primary">Contact Us</a></li>
                 <li><a href="#" className="text-sm text-gray-600 hover:text-catalog-primary">FAQs</a></li>
-                <li><a href="#" className="text-sm text-gray-600 hover:text-catalog-primary">Shipping</a></li>
-                <li><a href="#" className="text-sm text-gray-600 hover:text-catalog-primary">Returns</a></li>
               </ul>
             </div>
           </div>
